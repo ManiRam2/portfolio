@@ -1,0 +1,190 @@
+<html>
+<head>
+    <!--font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">  
+<title>Simple Portfolio</title>    
+<link rel="stylesheet" href="style.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+<style>
+    /* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header styling */
+.header {
+    background: #333;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #f5a623;
+    text-decoration: none;
+}
+
+.header .navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #f5a623;
+}
+
+/* Contact form section styling */
+.Contact-form {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-me {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-me span {
+    color: #f5a623;
+}
+
+.input-box {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.input-box input, textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+textarea {
+    resize: none;
+}
+
+.btn-1 {
+    padding: 10px 20px;
+    background-color: #f5a623;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-1:hover {
+    background-color: #333;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .input-box {
+        flex-direction: column;
+    }
+}
+
+</style>
+</head>
+<body>
+ <header class="header">
+    <a href="#" class="logo"><span>MANI</span> RAM.N</a>
+
+    <nav class="navbar">
+<a href="index.html" class="active">Home</a>
+<a href="about.html" class="active">About</a>
+<a href="skills.html" class="active">Skills</a>
+<a href="projects.html" class="active">Projects</a>
+<a href="Contact.html" class="active">Contact</a>
+    </nav>
+
+</header>
+
+<section class="Contact-form" id="Contact">
+    <h2 class="contact-me">Contact <span> Me </span></h2>
+    <form action="(link unavailable)" method="POST">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name" name="name" required>
+        <input type="email" placeholder="Email" name="email" required>
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Enter your number" name="phone" required>
+      </div>
+      <textarea name="message" id="" cols="30" rows="10" placeholder="Your message" required></textarea>
+      <input type="submit" value="Send Message" class="btn-1">
+    </form>
+  </section>
+  
+
+<footer class="footer">
+
+    <div class="social">
+        <a class="face" href="https://www.facebook.com/profile.php?id=100068879703598&mibextid=ZbWKwL" ><i class="fa-brands fa-facebook"></i></a>
+        <a href="http://www.linkedin.com/in/mani-ram-71ba4b320" class="link"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://x.com/MANIRAM1702?t=GUsiW8TZ4XMdxkgUqgadcw&s=09" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/c_r_a_c_y_m_a_n_i/profilecard/?igsh=MTMxaXNkcnp2eGllcQ==" class="insta"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://wa.link/t16h2l" class="whats"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://github.com/ManiRam2" class="git"><i class="fa-brands fa-github"></i></a>
+
+    </div>
+
+<ul class="list">
+    <li>
+        <a href="#">FAQ</a>
+    </li>
+
+    <li>
+        <a href="#">Services</a>
+    </li>
+
+    <li>
+        <a href="#">About Me</a>
+    </li>
+
+    <li>
+        <a href="#">Contact</a>
+    </li>
+
+    <li>
+        <a href="#">Privacy Policy</a>
+    </li>
+
+</ul>
+
+<p class="copyright">@ 2023 MANI RAM N | All Rights Reserved</p>
+
+</footer>
+
+</body>
+</html>
+
+
+
+
